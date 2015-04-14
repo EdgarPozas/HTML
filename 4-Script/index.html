@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scrip</title>
+</head>
+<body>
+<style>
+	div{
+		width: 100px;
+		height: 100px;
+		background: red;
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	}
+</style>
+	<div id="cuadro"></div>
+<!--
+	script
+	importar scripts de otro arcivo
+	src=""
+-->
+<script src="./script.js"></script>
+<script>
+	document.getElementById("cuadro").addEventListener("click", function(){
+   		alert("click");
+	});
+	alert("desde el codigo");
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--
+		link
+		podemos importar css de otro archivo
+		<link rel="stylesheet" href="ruta">
+	-->
+	<link rel="stylesheet" href="./style.css">
+	<title>Style</title>
+</head>
+<body>
+<!--
+	style
+	Con esta etiqueta podemos hacer uso de css
+-->
+<style>
+	/*Aqui van los estilos css*/
+	/*. clases*/
+	.cuadrado{
+		width: 150px;
+		height: 160px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+		background-color: #f1f1f1;
+		margin:5em;
+	}
+	/*# id*/
+	#idcuadrado{
+		margin:5em;
+		width: 200px;
+		height: 200px;
+		box-shadow: 0 0 30px rgba(0,0,0,0.7);
+		background-color:#1026dd; 
+	}
+</style>
+	<!--
+		id
+		cuadrado azul
+	-->
+	<div id="idcuadrado"></div>
+	<!--
+		class
+		cuadrados grises
+	-->
+	<div class="cuadrado"></div>
+	<div class="cuadrado"></div>
+	<div class="cuadrado"></div>
+	
+</body>
+</html>
